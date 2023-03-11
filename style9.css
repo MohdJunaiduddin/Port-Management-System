@@ -1,0 +1,354 @@
+body {
+    font-family: 'Courier New', monospace;
+}
+p{
+  font-family: 'Courier New', monospace;
+}
+
+table {
+  border-radius:25px;
+  /* font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+} */
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+td,th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(odd){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:25px;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+  background-color: white;
+}
+
+input[type=password]:focus {
+  border: 3px solid #555;
+}
+input[type=submit]{
+  font-family: 'Courier New', monospace;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px 32px;
+    border-radius:25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=text] {
+  width: 100%;
+  font-family: 'Courier New', monospace;
+  padding: 8px 15px;
+  margin: 8px 0;
+  border-radius:25px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+  background-color: white;
+}
+
+input[type=text]:focus {
+  font-family: 'Courier New', monospace;
+  border: 3px solid #555;
+}
+input[type=email] {
+  font-family: 'Courier New', monospace;
+  width: 100%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  border-radius:25px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+  background-color: white;
+  /* background-image: url('user.jpg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat; */
+}
+input[type=email]:focus {
+  font-family: 'Courier New', monospace;
+  border: 3px solid #555;
+}
+.bg {
+  /* background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)); */
+  background-image: url("sigma.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  /* leaner graden colors to 0 trancepance
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg1 {
+  background-image: url("sigma.jpg");
+  background-attachment: fixed;
+  height: 100%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .bgm {
+background-color:rgb(93, 127, 152);
+} */
+.box1 {
+  width: 520px;
+  padding: 1px;
+  border: 3px solid AliceBlue;
+  background-color: AliceBlue;
+  margin: 0;
+  border-radius:20px;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  border-radius:20px;
+  display:flex;
+  margin: 10px;
+  justify-content:flex-end;
+  position: relative;
+}
+
+/* Style the links inside the navigation bar */
+.topnav but {
+  border: 1px solid lime;
+  margin-right:  10px;
+  float: left;
+  font-family: 'Courier New', monospace;
+  padding: 35px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  border-radius:20px;
+}
+.box2 {
+width: 300px;
+padding: 10px;
+background-color: MediumSeaGreen;
+border-radius:25px;
+margin: 0;
+}
+.abc{
+  color: white;
+  background-color:#04AA6D;
+  box-sizing: border-box;
+  justify-content: center;;
+  font-family: 'Courier New';
+  border-radius: 25px;
+  border: 2px #04AA6D solid;
+  padding: 10px;
+}
+.abd{
+  color: black;
+  background-color:white;
+  box-sizing: border-box;
+  justify-content: center;
+  font-family: 'Courier New';
+  transition: 0.5s;
+  border-radius: 25px;
+  border: 2px #ccc solid;
+  padding: 10px;
+}
+.abd:focus{
+  color: black;
+  background-color:white;
+  box-sizing: border-box;
+  justify-content: center;
+  font-family: 'Courier New';
+  border-radius: 25px;
+  border: 2px black solid;
+  padding: 10px;
+}
+.abd:hover{
+  box-shadow: 3px 3px 5px #ccc;
+  transition: 0.5s;
+}
+.abc:hover{
+  box-shadow: 2px 2px 2px green;
+  transition: 0.5s;
+}
+input[type=email]:hover{
+  box-shadow: 3px 3px 5px #ccc;
+  transition: 0.5s;
+}
+input[type=text]:hover{
+  box-shadow: 3px 3px 5px #ccc;
+transition: 0.5s;
+}
+input[type=submit]:hover{
+  box-shadow: 2px 2px 2px green;
+transition: 0.5s;
+}
+input[type=password]:hover{
+  box-shadow: 3px 3px 5px #ccc;
+transition: 0.5s;
+}
+.but{
+  display: inline-block;
+  font-family: 'Courier New', monospace;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  margin-left: 10px;
+  /* background-color: #4CAF50; */
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 9px #999; */
+}
+.but 2 {
+  align:left;
+  float:left;
+}
+.but 3 {
+  align:right;
+  float:right;
+}
+.but:hover {background-color: #3e8e41}
+
+.but:active {
+  background-color: #3e8e41;
+  /* box-shadow: 0 5px #666; */
+}
+#floating-menu {
+   font-family: sans-serif;
+   background:white;
+   color:black;
+   padding: 5px;;
+   width: 250px;
+   z-index: 100;
+   right:20px;
+   /* display:none; */
+   top:80px;
+   border-radius: 15px;
+   position: fixed;
+ }
+
+ .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'Courier New', monospace;
+  text-align: left;
+ }
+
+ /* Hide the browser's default radio button */
+ .container input {
+  opacity: 0;
+  cursor: pointer;
+ }
+
+ /* Create a custom radio button */
+ .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+ }
+
+ /* On mouse-over, add a grey background color */
+ /* .container:hover input ~ .checkmark {
+  background-color: #ccc;
+ } */
+
+ /* When the radio button is checked, add a blue background */
+ .container input:checked ~ .checkmark {
+  background-color: MediumSeaGreen;
+ }
+
+ /* Create the indicator (the dot/circle - hidden when not checked) */
+ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+ }
+
+ /* Show the indicator (dot/circle) when checked */
+ .container input:checked ~ .checkmark:after {
+  display: block;
+ }
+
+ /* Style the indicator (dot/circle) */
+ .container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+ }
+.pok{
+  font-weight: bold;
+
+}
+label{
+  padding:5px;
+  color:#222;
+  font-family:corbel,sans-serif;
+  /* vertical-align: baseline; */
+  font-size: 14px;
+  margin: 10px;
+}
+input {
+  vertical-align: middle
+}
+
+.box3 {
+width: 300px;
+padding: 10px;
+/* padding: 2px; */
+/* font-family: 'Alatsi'; */
+background-color:black;
+border-radius:25px;
+margin: 0;
+}
+.rad{
+font-family: 'Courier New', monospace;
+}
+
+
+input[type="radio"] {
+font-family: 'Courier New', monospace;
+margin-top: -1px;
+vertical-align: middle;
+}
+h1 { font-family: Optima;}
